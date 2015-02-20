@@ -1,0 +1,20 @@
+ZOMBIE APOCALYPSE APPLICATION
+==============================
+By: Helen Totterdell
+
+
+This application takes in 3 inputs:
+
+Probability of Zombie Bite - Takes a value from (0,1) as the initial proportion of zombies
+in the population on Day 1.  This probability will update in the machinery as more of the
+population becomes zombies.
+
+Probability of Death from Zombie Bite - Takes a value from (0,1) as the probability of 
+dying from a zombie bite when in contact with a zombie.  Alternative to death in this
+simulation is becoming a zombie.
+
+Population Size - The initial population size (humans and zombies) at Day 1.
+
+From these inputs a graph is produced of daily population stats (the proportion of
+humans alive and the proportion of zombies) using the initial population as the
+denominator.
